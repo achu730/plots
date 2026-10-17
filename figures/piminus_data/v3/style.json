@@ -1,0 +1,76 @@
+{
+ "id": "custom",
+ "name": "Physical Review B",
+ "source": "Figure and file-format instructions for authors from the Physical Review B guide 'Documentation_instructions_Physical_Reviews_B.docx'.",
+ "figure": {
+  "width_mm": 85,
+  "aspect": 0.75,
+  "dpi": 300
+ },
+ "font": {
+  "family": "sans-serif",
+  "names": [
+   "Helvetica",
+   "Arial",
+   "Liberation Sans",
+   "DejaVu Sans"
+  ],
+  "size_pt": 10,
+  "label_size_pt": 11,
+  "tick_size_pt": 9,
+  "mathtext": "stix"
+ },
+ "axes": {
+  "linewidth": 1.0,
+  "ticks_direction": "in",
+  "ticks_all_sides": false,
+  "minor_ticks": true,
+  "grid": false,
+  "title": true
+ },
+ "labels": {
+  "unit_style": "parentheses",
+  "example": "Time (s)",
+  "histogram_y_example": "Entries / bin"
+ },
+ "data": {
+  "marker": "o",
+  "markersize": 6,
+  "color": "#0072B2",
+  "capsize": 2,
+  "elinewidth": 1.0
+ },
+ "lines": {
+  "linewidth": 1.0,
+  "colors": [
+   "#000000"
+  ],
+  "styles": [
+   "-"
+  ]
+ },
+ "legend": {
+  "frameon": false,
+  "fontsize_pt": 9,
+  "loc": "best"
+ },
+ "experiment_label": null,
+ "rules": [
+  "Make figures one column wide (8.5 cm or 3 3/8 in), or 1.5 or 2 columns for detailed figures, and make sure everything can be read at that size.",
+  "Make the smallest capital letters and numerals at least 2 mm tall.",
+  "Make each data point at least 1 mm across, and avoid small open symbols, shading and cross-hatching.",
+  "Make curves at least 0.18 mm (0.5 pt) thick.",
+  "Label each axis with the quantity plotted and put the units in parentheses after it, not in square brackets.",
+  "Use the Greek letter itself (θ), not its spelled-out name (\\theta).",
+  "Explain the figure's symbols and curves in a legend inside the figure or in the caption.",
+  "Label subfigures (a), (b), etc., describe each panel in the caption, and submit multi-panel figures as one file if possible.",
+  "Give each figure a single caption that clearly summarizes it, and number figures with arabic numerals in the order the text refers to them.",
+  "Use accessible color palettes, with colors that stay distinct in grayscale and different line styles that are described in the caption.",
+  "Preferred file formats are .ps, .eps, .jpg and .png, and color-online-only figures must be supplied as .ps or .eps.",
+  "Submit photos as high-resolution .jpg or .png files, and if scans can't be avoided, scan at 600 dpi or higher before scaling to final size.",
+  "Show the results accurately and state any image changes, such as brightness, in the caption."
+ ],
+ "guide_file": "Documentation_instructions_Physical_Reviews_B.docx",
+ "guide_sha256": "fc0cac39a0478ad1c410ea6162f73c7f2425decfa7b8e2cc31f1cf2310c61790",
+ "guide_title": "Documentation_instructions_Physical_Reviews_B"
+}

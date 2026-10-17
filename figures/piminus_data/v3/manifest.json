@@ -1,0 +1,71 @@
+{
+ "tool": "Plotwise",
+ "session": "d394651f13",
+ "session_name": null,
+ "figure_version": 3,
+ "figure_made": "2026-10-17T17:50:12+01:00",
+ "manifest_written": "2026-10-17T17:56:07+01:00",
+ "request": "make the points smaller",
+ "made_by": "Claude",
+ "integrity": {
+  "status": "pass",
+  "totals": {
+   "points": 10000,
+   "matched": 10000,
+   "unmatched": 0,
+   "missing": 0,
+   "empty_cells": 0,
+   "hidden": 0
+  },
+  "data_changes": [],
+  "fits": []
+ },
+ "data": {
+  "file": "piminus_data.csv",
+  "sha256": "adcb6630f26b0bd9eb883c761876aa6988712b87adf7cd7681c40b64772577af",
+  "included": false
+ },
+ "style": "guide: Documentation_instructions_Physical_Reviews_B.docx + 1 past plot (7_CHI2DOF_significance.C) + 1 typed preference",
+ "files": {
+  "figure.pdf": {
+   "sha256": "16ece5e363ca2435668a31e69041b2d2e4345326216f368864314d9703f8f3c7",
+   "bytes": 176824
+  },
+  "figure.png": {
+   "sha256": "3a2b415609663d350d2cdd7964329c590a7e576ba81e2a8d31ff38bf6a798fdb",
+   "bytes": 77297
+  },
+  "figure.svg": {
+   "sha256": "e5838edec5b9c6343ab0ce9d770ba47c2d0a35a9cfa5a7a6794fd95af2be4e7b",
+   "bytes": 1500210
+  },
+  "inspector.html": {
+   "sha256": "f27cd6f5e2212c5b41b02a167db61297d499aaee752043b41b7ef24e20647e9c",
+   "bytes": 2958158
+  },
+  "integrity.json": {
+   "sha256": "d5d9286affb4e501a346d4d5adcda08df24b06ecf0a0c4a7a542e8b859dcb54d",
+   "bytes": 179489
+  },
+  "plot_code.py": {
+   "sha256": "d78085940c37c32e383fa3a67319bbd01f3f9c792a269cf3f88519035c85caf9",
+   "bytes": 398
+  },
+  "reproduce.py": {
+   "sha256": "3f861f39efe12217ee7de5e259ca46735a9d285b160b243c1c236f90f26e5059",
+   "bytes": 46048
+  },
+  "style.json": {
+   "sha256": "37d8d5147854e5966d3373e3f16f8bca47e25bb327792b13401b5ce5d44b4c1a",
+   "bytes": 2708
+  },
+  "ai_log.md": {
+   "sha256": "1cc0b66343ff7524f372e9e1dc69ae8ebca1b98871116e9c3803f3366835265b",
+   "bytes": 18255
+  },
+  "ai_log.jsonl": {
+   "sha256": "641411f1e1483015b6cffa7a8703feb0c6c335034c5ad240aaf98987f6b8ace5",
+   "bytes": 40607
+  }
+ }
+}
