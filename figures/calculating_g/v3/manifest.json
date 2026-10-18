@@ -1,0 +1,103 @@
+{
+ "tool": "Plotwise",
+ "session": "8924ecb3c7",
+ "session_name": null,
+ "figure_version": 3,
+ "figure_made": "2026-10-18T08:30:38+01:00",
+ "manifest_written": "2026-10-18T08:33:11+01:00",
+ "request": "add the equation",
+ "made_by": "Claude",
+ "integrity": {
+  "status": "warn",
+  "totals": {
+   "points": 13,
+   "matched": 13,
+   "unmatched": 0,
+   "missing": 0,
+   "empty_cells": 0,
+   "hidden": 0
+  },
+  "data_changes": [
+   "Polynomial (degree 2) fit added over the data (12 points of 'Y-displacement(meters)' vs 'Time (seconds)' from sheet 'Sheet1', x from 0.02 to 0.24): y = (5.264 ± 0.035)·x² + (-0.5925 ± 0.0090)·x + (0.01588 ± 0.00049), χ²/ndf = 484.7/9"
+  ],
+  "fits": [
+   {
+    "name": "Polynomial (degree 2) fit",
+    "kind": "poly",
+    "degree": 2,
+    "equation": "y = (5.264 ± 0.035)·x² + (-0.5925 ± 0.0090)·x + (0.01588 ± 0.00049)",
+    "params": {
+     "a2": 5.264366950259958,
+     "a1": -0.5924588448332446,
+     "a0": 0.015884189717285224
+    },
+    "errors": {
+     "a2": 0.035223934416965745,
+     "a1": 0.00897190904208522,
+     "a0": 0.0004863934003121196
+    },
+    "chi2": 484.72855513673926,
+    "ndf": 9,
+    "r2": 0.9973714667754451,
+    "n_points": 12,
+    "weighted": true,
+    "fit_range": [
+     0.02,
+     0.24
+    ],
+    "where": "sheet 'Sheet1'",
+    "x_column": "Time (seconds)",
+    "y_column": "Y-displacement(meters)",
+    "change": "Polynomial (degree 2) fit added over the data (12 points of 'Y-displacement(meters)' vs 'Time (seconds)' from sheet 'Sheet1', x from 0.02 to 0.24): y = (5.264 ± 0.035)·x² + (-0.5925 ± 0.0090)·x + (0.01588 ± 0.00049), χ²/ndf = 484.7/9"
+   }
+  ]
+ },
+ "data": {
+  "file": "calculating_g.xlsx",
+  "sha256": "541e6a1546eef94ed970488078a7cb72a65ad7e1344cd94459901d698657169a",
+  "included": false
+ },
+ "style": "guide: Documentation_instructions_CERN_LHCb.pdf + 1 past plot (7_CHI2DOF_significance.C)",
+ "files": {
+  "figure.pdf": {
+   "sha256": "fa256435a607ba61de5cd86902c2ee6c7f06323c6fb7d5eec2d295cf91f51a63",
+   "bytes": 29882
+  },
+  "figure.png": {
+   "sha256": "6de20273c83c87c311a34e1a4a919bb039973dd740a3645d9347fbcc37579848",
+   "bytes": 40638
+  },
+  "figure.svg": {
+   "sha256": "64597910a525e1db29e5927068ba32fa00a422fafa0944e7836679370a1cfb2c",
+   "bytes": 34559
+  },
+  "inspector.html": {
+   "sha256": "d7feb6733319e582368c534f30707474a2338b9392452562180655e8ec6467bb",
+   "bytes": 64165
+  },
+  "integrity.json": {
+   "sha256": "869bdf0d7d2243605a5f65ef4b5dda9ad7b059014b60b8c3569894906dc9fe67",
+   "bytes": 8462
+  },
+  "plot_code.py": {
+   "sha256": "7699736b52754c1583f1168ea5718c8988514dd22b3c26177e51ef68bdbbd877",
+   "bytes": 604
+  },
+  "reproduce.py": {
+   "sha256": "75b2bc947493228f728aa894db8db7e280ff08f8cd0796bee7ed55ad10a4ceb2",
+   "bytes": 46490
+  },
+  "style.json": {
+   "sha256": "44c1c691ea55d780fae443b9928174e2414fc40393dee8cc8233ce45d825f940",
+   "bytes": 3769
+  },
+  "ai_log.md": {
+   "sha256": "d851b0333b791c6314e8965f97e86a950b745ac26db23fce42a7edbd750bdbbb",
+   "bytes": 19149
+  },
+  "ai_log.jsonl": {
+   "sha256": "93fcbc88215a9d86b80f7868998aa7e08982a13071ba0693cc12357f9d1739cf",
+   "bytes": 55897
+  }
+ }
+}
