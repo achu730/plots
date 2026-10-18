@@ -3,7 +3,7 @@
 - Session: `8924ecb3c7`
 - Data: `calculating_g.xlsx` (SHA-256 `541e6a1546eef94ed970488078a7cb72a65ad7e1344cd94459901d698657169a`)
 - Style: guide: Documentation_instructions_CERN_LHCb.pdf + 1 past plot (7_CHI2DOF_significance.C)
-- Generated: 2026-10-18T08:33:11+01:00
+- Generated: 2026-10-18T08:33:51+01:00
 
 | # | Time | Actor | Step | What happened |
 |---|---|---|---|---|
@@ -29,6 +29,8 @@
 | 20 | 08:30:38 | App | check | v3: WARN. 13/13 plotted points traced to source rows; 0 not in the data; 0 rows missing; 0 empty cells. |
 | 21 | 08:30:38 | App | data-change | v3: changes to the data: Polynomial (degree 2) fit added over the data (12 points of 'Y-displacement(meters)' vs 'Time (seconds)' from sheet 'Sheet1', x from 0.02 to 0.24): y = (5.264 ± 0.035)·x² + (-0.5925 ± 0.0090)·x + (0.01588 ± 0.00049), χ²/ndf = 484.7/9. Only scaling by a factor, log axes and declared fits are allowed. |
 | 22 | 08:33:03 | App | github | GitHub upload did not go through: GitHub did not accept the token. Check that it was copied whole and hasn't expired. |
+| 23 | 08:33:20 | Human | github | Saved v3 to GitHub: achu730/plots, branch main, folder figures/calculating_g/v3, commit 19327ea. |
+| 24 | 08:33:21 | App | github | GitHub upload did not go through: GitHub refused to move branch main to the new commit (422: Update is not a fast forward). |
 
 ## Details
 
@@ -157,3 +159,6 @@ v3: WARN. 13/13 plotted points traced to source rows; 0 not in the data; 0 rows 
 
 ### 21. App · data-change · 2026-10-18T08:30:38+01:00
 v3: changes to the data: Polynomial (degree 2) fit added over the data (12 points of 'Y-displacement(meters)' vs 'Time (seconds)' from sheet 'Sheet1', x from 0.02 to 0.24): y = (5.264 ± 0.035)·x² + (-0.5925 ± 0.0090)·x + (0.01588 ± 0.00049), χ²/ndf = 484.7/9. Only scaling by a factor, log axes and declared fits are allowed.
+
+### 23. Human · github · 2026-10-18T08:33:20+01:00
+Saved v3 to GitHub: achu730/plots, branch main, folder figures/calculating_g/v3, commit 19327ea.

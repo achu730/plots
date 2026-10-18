@@ -4,7 +4,7 @@
  "session_name": null,
  "figure_version": 3,
  "figure_made": "2026-10-18T08:30:38+01:00",
- "manifest_written": "2026-10-18T08:33:11+01:00",
+ "manifest_written": "2026-10-18T08:33:51+01:00",
  "request": "add the equation",
  "made_by": "Claude",
  "integrity": {
@@ -92,12 +92,12 @@
    "bytes": 3769
   },
   "ai_log.md": {
-   "sha256": "d851b0333b791c6314e8965f97e86a950b745ac26db23fce42a7edbd750bdbbb",
-   "bytes": 19149
+   "sha256": "a4ef8511571fd4011c15bc2beb17f18c970b870507eb3c3c8e402196d8ccdcd4",
+   "bytes": 19593
   },
   "ai_log.jsonl": {
-   "sha256": "93fcbc88215a9d86b80f7868998aa7e08982a13071ba0693cc12357f9d1739cf",
-   "bytes": 55897
+   "sha256": "c45bf9a3264251915b567f03cd30a1ed00be9ec75d31f1d38b4a2a615a2e751c",
+   "bytes": 56828
   }
  }
 }
