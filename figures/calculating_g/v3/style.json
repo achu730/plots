@@ -1,7 +1,7 @@
 {
  "id": "custom",
  "name": "LHCb collaboration",
- "source": "LHCb collaboration document 'Template for writing LHCb papers' (Documentation_instructions_CERN_LHCb.pdf), Section 6 'Figures' and the Layout guidelines.",
+ "source": "LHCb collaboration document 'Template for writing LHCb papers' (Documentation_instructions_CERN_LHCb.pdf), the guidelines for preparing LHCb documents.",
  "figure": {
   "width_mm": 120,
   "aspect": 0.75,
@@ -18,7 +18,7 @@
   "size_pt": 10,
   "label_size_pt": 11,
   "tick_size_pt": 9,
-  "mathtext": "stix"
+  "mathtext": "dejavusans"
  },
  "axes": {
   "linewidth": 1.0,
@@ -30,8 +30,8 @@
  },
  "labels": {
   "unit_style": "brackets",
-  "example": "$m(D^{+}\\pi^{-})$ [GeV$/c^{2}$]",
-  "histogram_y_example": "Entries / (0.5 GeV$/c^{2}$)"
+  "example": "m(D^+π^-) [GeV/c^2]",
+  "histogram_y_example": "Entries / (0.5 GeV/c^2)"
  },
  "data": {
   "marker": "o",
@@ -60,23 +60,23 @@
   "text": "LHCb"
  },
  "rules": [
-  "Figures must be easy to read at the size they will be printed, with suitable line widths.",
-  "Every axis must have a label with suitable units, chosen so the tick numbers don't run together (e.g. GeV/c^2 rather than MeV/c^2 when the range covers several GeV).",
-  "Figures with LHCb data must say \"LHCb\" on them, or \"LHCb preliminary\" for preliminary results, \"LHCb simulation\" for simulation-only figures, and no label for figures that don't depend on LHCb-specific software.",
-  "Figures with LHCb data must show the integrated luminosity (e.g. \"9 fb^-1\" on a line below \"LHCb\"); cross-section or heavy-ion papers may show the centre-of-mass energy instead.",
-  "Label the y axis \"Entries\" or \"Candidates\" if no background subtraction was applied, otherwise \"Yield\" or \"Decays\", and give the bin width when showing yield per bin, e.g. \"Entries / (5 MeV/c^2)\".",
-  "Fit curves must not hide the data points, which are best drawn on top of the fit curves.",
-  "Colour is allowed, but differently coloured lines and areas must still be told apart in black and white, for example with different dash styles or hatching.",
-  "Never use the rainbow palette for two-dimensional plots; use printer-friendly, colour-blind-safe palettes such as those from colorbrewer2.org.",
-  "Use different hatching styles to separate filled areas, and avoid ROOT hatch styles 3001-3025 (3345 and 3354 are good falling and rising hatches).",
-  "Axis labels and legends should use the same font as the main text, upright rather than slanted, or consistently upright sans-serif, but never a mix of styles.",
-  "Particle symbols in figures should use the same roman or italic style as the text.",
+  "All figures containing LHCb data must show the label \"LHCb\" (\"LHCb preliminary\" for preliminary results, \"LHCb simulation\" for simulation-only figures), and figures that do not depend on LHCb-specific software should have no label.",
+  "Figures containing LHCb data must show the corresponding integrated luminosity (e.g. \"9 fb^-1\" on a new line under \"LHCb\"), or the centre-of-mass energy for cross-section or heavy-ion papers.",
+  "Figures must be legible at the size they will appear in the publication, with suitable line widths.",
+  "Axes must be labelled with suitable units, chosen so the tick numbers do not run together (e.g. GeV/c^2 rather than MeV/c^2 for a range of several GeV/c^2).",
+  "The y-axis should read \"Entries\" or \"Candidates\" without background subtraction, or \"Yield\" or \"Decays\" with it, and should state the bin width when it shows a per-bin yield, e.g. \"Entries / (5 MeV/c^2)\".",
+  "Axis labels and legends should use the same text font as the main text, with upright symbols, or consistently upright sans-serif throughout, but styles must not be mixed.",
+  "Particle symbols in figures should use the same roman or italic font as in the text.",
   "Minus signs in figure labels must be proper minus signs, not hyphens.",
+  "Colour may be used, but differently coloured lines and areas must stay distinguishable in black-and-white print, for example through different dash styles.",
+  "Never use a rainbow palette for two-dimensional plots, and use printer-friendly, colour-blind-safe palettes instead.",
+  "Filled areas should use different hatching styles to stay distinguishable in black and white, avoiding hatch styles that behave unpredictably when zoomed or scaled.",
+  "Fit curves must not hide the data points, which are best drawn on top of the fit curves.",
   "Avoid spurious background shading and boxes around text, including legend frames.",
-  "Figures with more than one part must label the parts (a), (b), etc., or refer to them clearly by position, and describe each in the caption.",
-  "Captions go below the figure in a slightly smaller typeface, are short and correctly punctuated, don't start with an article, describe the data before the fit components, and contain no numbered equations.",
-  "Pull plots are normally not shown in papers unless they highlight regions where the fit fails.",
-  "Figure files go in the figs/ directory as PDF for pdflatex (EPS for plain LaTeX)."
+  "Multi-part figures should label their parts (a), (b), etc. and describe each part in the caption, or refer to them clearly by position.",
+  "Captions go below the figure, should be short and correctly punctuated, use a slightly smaller typeface than the text, describe the data before the fit components, and should not start with an article or contain numbered equations.",
+  "Pull plots should normally not appear in papers unless they show regions where the fit does not describe the data.",
+  "Figure files must be in PDF format for pdflatex (EPS for plain LaTeX) and placed in the figs/ directory."
  ],
  "guide_file": "Documentation_instructions_CERN_LHCb.pdf",
  "guide_sha256": "d08680307fb2d44540451e48ee09a74157586a5d794a5b96c4678fd3089774fb",

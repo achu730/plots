@@ -938,23 +938,32 @@ pw.apply_rcparams()
 sheet = data["Sheet1"]
 
 t = sheet["Time (seconds)"]
-y = sheet["Y-displacement(meters)"]
 t_err = sheet["Time error (seconds)"]
+y = sheet["Y-displacement(meters)"]
 y_err = sheet["Y-displacement error (meters)"]
 
 fig, ax = pw.figure()
 
-data_kw = pw.data_style(0)
-data_kw.update(zorder=3)  # keep data points drawn on top of the fit curve
-ax.errorbar(t, y, xerr=t_err, yerr=y_err, **data_kw, label="Data")
+ax.errorbar(t, y, xerr=t_err, yerr=y_err, **pw.data_style(0), label="Data")
 
-pw.fit(ax, t, y, kind="poly", degree=2, yerr=y_err, label="2nd-order polynomial fit",
-       show_equation=True)
+# Quadratic (degree-2 polynomial) least-squares fit of the plotted points.
+# The first point has a zero y uncertainty, so the fit is unweighted (no yerr).
+# show_equation=True writes the fitted equation and R² into the legend.
+n_lines_before = len(ax.lines)
+fit = pw.fit(ax, t, y, kind="poly", degree=2, label="Quadratic fit", show_equation=True)
+
+# Make the fitted trendline red and dotted, and keep it behind the data points.
+for line in ax.lines[n_lines_before:]:
+    line.set_color("red")
+    line.set_linestyle(":")
+    line.set_zorder(1)
 
 ax.set_xlabel(pw.label("Time", "s"))
 ax.set_ylabel(pw.label("Vertical displacement", "m"))
 
-pw.legend(ax, loc="upper left")
+pw.legend(ax)
+
+# This is a ball-tracking measurement, not LHCb data, so the LHCb label is left off.
 # ---- end plot code ----
 
 fig = globals().get("fig") or plt.gcf()

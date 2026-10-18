@@ -1,11 +1,11 @@
 {
  "tool": "Plotwise",
- "session": "8924ecb3c7",
+ "session": "e2901bbed4",
  "session_name": null,
  "figure_version": 3,
- "figure_made": "2026-10-18T08:30:38+01:00",
- "manifest_written": "2026-10-18T08:33:51+01:00",
- "request": "add the equation",
+ "figure_made": "2026-10-18T08:53:02+01:00",
+ "manifest_written": "2026-10-18T09:02:36+01:00",
+ "request": "add the equation for the trendline",
  "made_by": "Claude",
  "integrity": {
   "status": "warn",
@@ -18,37 +18,37 @@
    "hidden": 0
   },
   "data_changes": [
-   "Polynomial (degree 2) fit added over the data (12 points of 'Y-displacement(meters)' vs 'Time (seconds)' from sheet 'Sheet1', x from 0.02 to 0.24): y = (5.264 ± 0.035)·x² + (-0.5925 ± 0.0090)·x + (0.01588 ± 0.00049), χ²/ndf = 484.7/9"
+   "Polynomial (degree 2) fit added over the data (13 points of 'Y-displacement(meters)' vs 'Time (seconds)' from sheet 'Sheet1', x from 0 to 0.24): y = (4.88 ± 0.27)·x² + (-0.472 ± 0.068)·x + (0.0079 ± 0.0035), R² = 0.9946"
   ],
   "fits": [
    {
     "name": "Polynomial (degree 2) fit",
     "kind": "poly",
     "degree": 2,
-    "equation": "y = (5.264 ± 0.035)·x² + (-0.5925 ± 0.0090)·x + (0.01588 ± 0.00049)",
+    "equation": "y = (4.88 ± 0.27)·x² + (-0.472 ± 0.068)·x + (0.0079 ± 0.0035)",
     "params": {
-     "a2": 5.264366950259958,
-     "a1": -0.5924588448332446,
-     "a0": 0.015884189717285224
+     "a2": 4.882679468223788,
+     "a1": -0.4716540952014186,
+     "a0": 0.007923010844169187
     },
     "errors": {
-     "a2": 0.035223934416965745,
-     "a1": 0.00897190904208522,
-     "a0": 0.0004863934003121196
+     "a2": 0.27118317311733053,
+     "a1": 0.0675240655594968,
+     "a0": 0.0034880523857761217
     },
-    "chi2": 484.72855513673926,
-    "ndf": 9,
-    "r2": 0.9973714667754451,
-    "n_points": 12,
-    "weighted": true,
+    "chi2": null,
+    "ndf": 10,
+    "r2": 0.9945926134995997,
+    "n_points": 13,
+    "weighted": false,
     "fit_range": [
-     0.02,
+     0.0,
      0.24
     ],
     "where": "sheet 'Sheet1'",
     "x_column": "Time (seconds)",
     "y_column": "Y-displacement(meters)",
-    "change": "Polynomial (degree 2) fit added over the data (12 points of 'Y-displacement(meters)' vs 'Time (seconds)' from sheet 'Sheet1', x from 0.02 to 0.24): y = (5.264 ± 0.035)·x² + (-0.5925 ± 0.0090)·x + (0.01588 ± 0.00049), χ²/ndf = 484.7/9"
+    "change": "Polynomial (degree 2) fit added over the data (13 points of 'Y-displacement(meters)' vs 'Time (seconds)' from sheet 'Sheet1', x from 0 to 0.24): y = (4.88 ± 0.27)·x² + (-0.472 ± 0.068)·x + (0.0079 ± 0.0035), R² = 0.9946"
    }
   ]
  },
@@ -60,44 +60,44 @@
  "style": "guide: Documentation_instructions_CERN_LHCb.pdf + 1 past plot (7_CHI2DOF_significance.C)",
  "files": {
   "figure.pdf": {
-   "sha256": "fa256435a607ba61de5cd86902c2ee6c7f06323c6fb7d5eec2d295cf91f51a63",
-   "bytes": 29882
+   "sha256": "7c1946d7c3e3344e444b99ccfb01ec62b9a7d596caadabf2dd46b2c074743dd8",
+   "bytes": 30311
   },
   "figure.png": {
-   "sha256": "6de20273c83c87c311a34e1a4a919bb039973dd740a3645d9347fbcc37579848",
-   "bytes": 40638
+   "sha256": "7ae007bfb3b75da62d43318a45ed91ea7faf96b6d74708266b525d8f491bc2eb",
+   "bytes": 38364
   },
   "figure.svg": {
-   "sha256": "64597910a525e1db29e5927068ba32fa00a422fafa0944e7836679370a1cfb2c",
-   "bytes": 34559
+   "sha256": "e6c3f09264d2cc10ebeba4bb4def8db3f350e55e04b56e5ab52fbee96437a4f7",
+   "bytes": 34810
   },
   "inspector.html": {
-   "sha256": "d7feb6733319e582368c534f30707474a2338b9392452562180655e8ec6467bb",
-   "bytes": 64165
+   "sha256": "e82c8ebc5869aa525afe4c4db19effcd3ac1653d7754d5bc31e2df2b5a73d860",
+   "bytes": 61120
   },
   "integrity.json": {
-   "sha256": "869bdf0d7d2243605a5f65ef4b5dda9ad7b059014b60b8c3569894906dc9fe67",
-   "bytes": 8462
+   "sha256": "7e9352b40d2978cfdc92674b365c157726d2afceeedeec4f2cb26c3a73bf7f7d",
+   "bytes": 8325
   },
   "plot_code.py": {
-   "sha256": "7699736b52754c1583f1168ea5718c8988514dd22b3c26177e51ef68bdbbd877",
-   "bytes": 604
+   "sha256": "ece13431c9641d80c27863d7b4e25851d05d4cae9098af214c13b4756300565c",
+   "bytes": 1011
   },
   "reproduce.py": {
-   "sha256": "75b2bc947493228f728aa894db8db7e280ff08f8cd0796bee7ed55ad10a4ceb2",
-   "bytes": 46490
+   "sha256": "6bba30a157b5902a2ba3c83d63ee7fed6a15ee80c8dea88a5b98d9913cb3376e",
+   "bytes": 46897
   },
   "style.json": {
-   "sha256": "44c1c691ea55d780fae443b9928174e2414fc40393dee8cc8233ce45d825f940",
-   "bytes": 3769
+   "sha256": "d8454ec1be7b0100b09f1abdaa9edd12d4ad824628ca7dc26525c41b76e00043",
+   "bytes": 3869
   },
   "ai_log.md": {
-   "sha256": "a4ef8511571fd4011c15bc2beb17f18c970b870507eb3c3c8e402196d8ccdcd4",
-   "bytes": 19593
+   "sha256": "21b791fe1de33ea365dbd6f3ea3c748e41d264717faed2163d88bd89cf5f81ca",
+   "bytes": 19473
   },
   "ai_log.jsonl": {
-   "sha256": "c45bf9a3264251915b567f03cd30a1ed00be9ec75d31f1d38b4a2a615a2e751c",
-   "bytes": 56828
+   "sha256": "5bdb2f6b5ea8f6c483969a4e7229d778ba2e4e8630431a9dbf7095a28abc3992",
+   "bytes": 57929
   }
  }
 }

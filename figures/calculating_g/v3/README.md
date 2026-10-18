@@ -4,12 +4,12 @@
 
 | | |
 |---|---|
-| Made with | Plotwise, session `8924ecb3c7`, figure v3, 2026-10-18 08:30 |
-| Request | add the equation |
+| Made with | Plotwise, session `e2901bbed4`, figure v3, 2026-10-18 08:53 |
+| Request | add the equation for the trendline |
 | Made by | Claude |
 | Data | `calculating_g.xlsx`, SHA-256 `541e6a1546eef94ed970488078a7cb72a65ad7e1344cd94459901d698657169a` (not included here) |
 | Integrity check | **WARN**: 13/13 plotted points traced to a source row, 0 not in the data, 0 rows missing |
-| Changes to the data | Polynomial (degree 2) fit added over the data (12 points of 'Y-displacement(meters)' vs 'Time (seconds)' from sheet 'Sheet1', x from 0.02 to 0.24): y = (5.264 ± 0.035)·x² + (-0.5925 ± 0.0090)·x + (0.01588 ± 0.00049), χ²/ndf = 484.7/9 |
+| Changes to the data | Polynomial (degree 2) fit added over the data (13 points of 'Y-displacement(meters)' vs 'Time (seconds)' from sheet 'Sheet1', x from 0 to 0.24): y = (4.88 ± 0.27)·x² + (-0.472 ± 0.068)·x + (0.0079 ± 0.0035), R² = 0.9946 |
 | Style | guide: Documentation_instructions_CERN_LHCb.pdf + 1 past plot (7_CHI2DOF_significance.C) |
 
 ## Files
